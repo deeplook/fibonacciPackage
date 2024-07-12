@@ -1,0 +1,9 @@
+Package: fibonacciPackage
+Type: Package
+Title: Fibonacci Number Generator
+Version: 0.1.0
+Author: Your Name
+Maintainer: Your Name <your.email@example.com>
+Description: A package to calculate the first N Fibonacci numbers.
+License: MIT
+RoxygenNote: 7.3.2

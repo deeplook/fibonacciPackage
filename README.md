@@ -1,2 +1,2 @@
 # fibonacciPackage
-Example R package to calculate Fibinacci numbers.
+Example R package to calculate Fibonacci numbers.

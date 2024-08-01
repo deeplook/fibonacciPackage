@@ -3,4 +3,3 @@ repos:
     rev: v0.4.3
     hooks:
       - id: style-files
-        args: [--type, R]

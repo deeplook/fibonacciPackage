@@ -9,19 +9,19 @@ fibonacci <- function(N) {
   if (N <= 0) {
     return(list())
   }
-  
+
   # Initialize the list with the first two Fibonacci numbers
   fib_list <- numeric(N)
   fib_list[1] <- 1
   if (N > 1) {
     fib_list[2] <- 1
   }
-  
+
   # Calculate the remaining Fibonacci numbers
   for (i in 3:N) {
-    fib_list[i] <- fib_list[i-1] + fib_list[i-2]
+    fib_list[i] <- fib_list[i - 1] + fib_list[i - 2]
   }
-  
+
   return(fib_list)
 }
 

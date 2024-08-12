@@ -5,6 +5,6 @@ Version: 0.1.0
 Author: Your Name
 Maintainer: Your Name <your.email@example.com>
 Description: A package to calculate the first N Fibonacci numbers.
-             Includes a command-line interface via `fibonacci`.
+             Includes a command-line interface via `fibonacci_cli.R`.
 License: MIT
 RoxygenNote: 7.3.2

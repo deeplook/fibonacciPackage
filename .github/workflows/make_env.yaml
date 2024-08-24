@@ -19,4 +19,4 @@ jobs:
         MY_SECRET: ${{ secrets.HHGTTG_42 }}
 
     - name: Display env file content
-      run: .env
+      run: cat .env

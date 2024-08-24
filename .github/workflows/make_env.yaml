@@ -1,0 +1,22 @@
+name: Create Env File
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Create file with secret
+      run: echo "$HHGTTG_42" > .env
+      env:
+        MY_SECRET: ${{ secrets.HHGTTG_42 }}
+
+    - name: Display env file content
+      run: .env

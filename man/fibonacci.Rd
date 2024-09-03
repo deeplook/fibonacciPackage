@@ -4,7 +4,7 @@
 \alias{fibonacci}
 \title{Calculate Fibonacci Numbers}
 \usage{
-fibonacci(N)
+fibonacci_sequence(N)
 }
 \arguments{
 \item{N}{The number of Fibonacci numbers to calculate.}

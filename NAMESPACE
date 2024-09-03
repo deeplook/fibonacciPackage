@@ -1,1 +1,1 @@
-export(fibonacci)
+export(fibonacci_sequence)

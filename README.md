@@ -70,3 +70,10 @@ $ Rscript fibonacciPackage/tests/testthat/test_fibonacci.R
 Test passed 🌈
 Test passed 😀
 ```
+
+## Uninstallation
+
+```R
+$ R
+> remove.packages("fibonacciPackage")
+```
